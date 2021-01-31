@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-------------------------------------------------- Head starts -->
+	<head>
+		<meta charset="UTF-8" />
+		<title>Blog</title>
+
+		<!-- link to google fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- load in fontawesome -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+			integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+			crossorigin="anonymous"
+		/>
+
+		<!-- link to styles -->
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<!-----------------------------------------------------Head ends -->
+
+	<!-------------------------------------------------- Menu starts -->
+	<nav class="menu">
+		<!-- The menu is made of:
+		1. The huawei logo + name 
+		2. 5 words, each word leading to a different page
+		3. A division that contains the 'buy icon' & 'search icon'-->
+
+		<!-- Below is the huawei logo -->
+		<img
+			class="menu_icon logo"
+			src="https://thinkwireless.nz/wp-content/uploads/2016/10/huawei-logo-horizontal.jpg"
+		/>
+
+		<!-- Below are the 5 a tags -->
+		<ul class="menu_options">
+			<li><a href="">Consumer products </a></li>
+			<li><a href="">Business products</a></li>
+			<li><a href="">Support</a></li>
+			<li><a href="">Partners & Developers</a></li>
+			<li><a href="">About Huawei</a></li>
+		</ul>
+
+		<!-- Below are the two icons -->
+		<div class="icons">
+			<!-- buy icon -->
+			<div>
+				<img
+					src="https://www.flaticon.com/svg/vstatic/svg/1656/1656850.svg?token=exp=1612111123~hmac=57f03b6c99bde7438aa3c2d27347358e"
+					alt=""
+					class="menu_icon"
+				/>
+				<p>Buy</p>
+			</div>
+			<!-- search icon -->
+			<div>
+				<img
+					src="https://www.flaticon.com/svg/vstatic/svg/482/482631.svg?token=exp=1612109646~hmac=824ce66546524dc39eedf67be9b91b6c"
+					alt="seachicon"
+					class="menu_icon"
+				/>
+				<!-- <p>Search</p> -->
+			</div>
+		</div>
+	</nav>
+	<!---------------------------------------------------- Menu ends -->
+
+	<!------------------------------------------------ Header starts -->
+	<header class="header">
+		<!-- the header is made of:
+		1. a large picture
+		2. a button -->
+
+		<!-- Below is the image -->
+		<img class="banner" src="./assets/header.png" alt="" />
+
+		<!-- Below is the button -->
+		<button class="clickme">Learn more</button>
+	</header>
+	<!-------------------------------------------------- Header ends -->
+
+	<!------------------------------------------------- Body starts  -->
+	<body>
+		<!---------------------------------------------- First section -->
+		<section class="firstsection">
+			<div class="wrapper">
+				<!-- Section one is made up of: 
+			1. 1st division: two pictures , with writing overlayed on each picture
+			2. 2nd division: two pictures, with writing overlayed on each picture 
+			3. 3rd division: three pictures, with writing overlayed on each picture-->
+				<h1 class="heading">What's New</h1>
+				<div class="allrows">
+					<div class="rowone">
+						<img src="./assets/watch.png" alt="" />
+						<img src="./assets/girlnwatch.png" alt="" />
+					</div>
+					<div class="rowtwo">
+						<img src="./assets/earbuds.png" alt="" />
+						<img src="./assets/laptop.png" alt="" />
+					</div>
+					<div class="rowthree">
+						<img src="./assets/airport.png" alt="" />
+						<img src="./assets/nature.png" alt="" />
+						<img src="./assets/magazine.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-------------------------------------------- First section ends -->
+		<!-------------------------------------------- Second section starts -->
+		<section class="secondsection">
+			<!-- Section two is made up of:
+				One background image, and h1 tag + button-->
+
+			<img class="banner" src="./assets/secondbanner.png" alt="" />
+		</section>
+		<!-------------------------------------------- Second section ends -->
+		<!-------------------------------------------- Third section -->
+		<section class="thirdsection">
+			<div class="wrapper">
+				<!-- Section three is made up of:
+			1: Three divisons: 
+				1.1: The first two are event boxes;
+				each event box contains a picture, even name, time and location
+				1.2: The third division contains a list of events and dates -->
+				<h1 class="heading">News & Events</h1>
+				<div class="allevents">
+					<div class="eventbox">
+						<img src="./assets/city.png" alt="" />
+						<h2>NGON 2020 & Huawei Optical Innovation Forum 2020</h2>
+						<div class="location_date">
+							<h3>Webcast</h3>
+							<h3>Nov 30, 2020</h3>
+						</div>
+					</div>
+					<div class="eventbox">
+						<img src="./assets/event.png" alt="" />
+						<h2>Global Mobile Broadband Forum 2020</h2>
+						<div class="location_date">
+							<h3>Shanghai, China</h3>
+							<h3>Nov 12-13, 2020</h3>
+						</div>
+					</div>
+					<div class="eventbox newsposts">
+						<div class="newspost">
+							<h2>
+								Huawei Recognized as a 2020 Gartner Peer Insights Customers'
+								Choice for Data Center and Cloud Networking with the Highest
+								Rating
+							</h2>
+							<div class="date">
+								<h3>Jan 15, 2021</h3>
+							</div>
+						</div>
+						<div class="newspost">
+							<h2>
+								Huawei released Top 10 Trends of Digital Power
+							</h2>
+							<div class="date">
+								<h3>Jan 15, 2021</h3>
+							</div>
+						</div>
+						<div class="newspost">
+							<h2>
+								Huawei iMaster MAE Wins the 2020 Communication World Excellent
+								Solution
+							</h2>
+							<div class="date">
+								<h3>Jan 12, 2021</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="thirdsection_buttons">
+					<button class="clickme">More Events</button>
+					<button class="clickme">More News</button>
+				</div>
+			</div>
+		</section>
+		<!---------------------------------------------- Third section ends -->
+		<!---------------------------------------------- Fourth section starts -->
+		<section class="fourthsection">
+			<div class="wrapper">
+				<!-- Section four is made up of: 
+				1. One division that contains two icons on the ends of the row.
+				2. One division that contains 6 columns of lists
+				3. One division that contains arow that cibtaubs 
+				few words on the left, and social media icons on the bottom right-->
+				<div class="topdiv">
+					<p>Home</p>
+					<img
+						src="https://www.flaticon.com/svg/vstatic/svg/482/482631.svg?token=exp=1612109646~hmac=824ce66546524dc39eedf67be9b91b6c"
+						alt="seachicon"
+						class="social_logo"
+					/>
+				</div>
+
+				<div class="middlediv">
+					<div class="columnone allcolumns">
+						<ul>
+							<li><span>About Huawei</span></li>
+							<li>Our Company</li>
+							<li>Annual Reports</li>
+							<li>Corporate Governance</li>
+							<li>Executives</li>
+							<li>Career</li>
+							<li>Contact us</li>
+						</ul>
+						<ul class="columnone2ndlist">
+							<li>Sustainability</li>
+							<li>Trust Center</li>
+							<li>Public Policy</li>
+							<li>Industry Analysts</li>
+							<li>Bond investors</li>
+							<li>Suppliers</li>
+						</ul>
+					</div>
+					<ul class="columntwo allcolumns">
+						<li><span>News & Events</span></li>
+						<li>News</li>
+						<li>Events</li>
+						<li>Huawei Live</li>
+						<li>Gallery</li>
+						<li>Huawei Facts</li>
+					</ul>
+					<ul class="columnthree allcolumns">
+						<li><span>Discover</span></li>
+						<li>Success Stories</li>
+						<li>Industry Insights</li>
+						<li>Publications</li>
+						<li>Huawei Blog</li>
+					</ul>
+					<ul class="columnfour allcolumns">
+						<li><span>Products</span></li>
+						<li>Consumer</li>
+						<li>Enterprise</li>
+						<li>Carrier</li>
+						<li>Huawei Cloud</li>
+					</ul>
+					<ul class="columnfive allcolumns">
+						<li><span>Support</span></li>
+						<li>Consumer Support</li>
+						<li>Huawei Cloud Support</li>
+						<li>Enterprise Support</li>
+						<li>Carrier Support</li>
+						<li>Security Bulletins</li>
+					</ul>
+				</div>
+				<div class="lastdiv">
+					<div class="words">
+						<p>Huawei Cloud</p>
+						<p>Fusion Solar Smart PV</p>
+					</div>
+					<div class="socials">
+						<img
+							class="social_logo"
+							src="https://www.flaticon.com/svg/vstatic/svg/2111/2111532.svg?token=exp=1612108466~hmac=46279e237838a662101f1122cf29e31e"
+							alt="linkedin"
+						/>
+						<img
+							class="social_logo"
+							src="https://www.flaticon.com/svg/vstatic/svg/1051/1051309.svg?token=exp=1612108568~hmac=077a70e3e98154763ca5ea7df46a88e1"
+							alt="facebook"
+						/>
+						<img
+							class="social_logo"
+							src="https://www.flaticon.com/svg/vstatic/svg/733/733635.svg?token=exp=1612108642~hmac=e71f4a5dacc925715e4928f8b7fc2337"
+							alt="twitter"
+						/>
+						<img
+							class="social_logo"
+							src="https://image.flaticon.com/icons/png/128/1384/1384028.png"
+							alt="youtube"
+						/>
+						<img
+							class="social_logo"
+							src="https://www.flaticon.com/svg/vstatic/svg/1384/1384031.svg?token=exp=1612108723~hmac=8b20f624248faa660c6fb38d5cbadd52"
+							alt="instagram"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!---------------------------------------------- Fourth section ends -->
+		<!---------------------------------------------- Footer starts -->
+		<footer class="footer">
+			<div class="footer_copyright">
+				<p>@2021 Huawei Technologies Co., Ltd.</p>
+			</div>
+			<div class="footer_list">
+				<ul>
+					<li>Contact</li>
+					<li>Terms of Use</li>
+					<li>Privacy</li>
+					<li>Cookies</li>
+				</ul>
+			</div>
+		</footer>
+		<!----------------------------------------------- Footer ends -->
+	</body>
+	<!---------------------------------------------------- Body ends -->
+</html>
