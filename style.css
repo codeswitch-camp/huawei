@@ -295,6 +295,12 @@ li {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.clickme:hover {
+	background-color: red;
+	color: white;
+	border: none;
+}
+
 .header,
 .firstsection,
 .secondsection,
@@ -312,14 +318,42 @@ li {
 	margin: 0 auto;
 }
 
+/*The black menu */
+
+.blackmenu {
+	padding-right: 8rem;
+	background-color: black;
+	color: lightgray;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 1rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+
+.blackmenu .menuitem {
+	display: flex;
+	align-items: center;
+	margin-left: 2rem;
+}
+
+.blackmenu .menuitem img {
+	width: 2rem;
+	margin-right: 1rem;
+}
+
 /* The Menu */
 
 .menu {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	/*  */
-	margin: 1rem;
+	padding-right: 7rem;
+	padding-left: 7rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #e6e6e6;
 }
 
 .menu .logo {
@@ -353,11 +387,17 @@ li {
 .menu ul a {
 	text-decoration: none;
 	color: black;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 	padding: 1rem;
 }
 
 /* Header/banner */
+
+.header {
+	border-bottom: 1px solid #e6e6e6;
+	padding: 0rem;
+	padding-bottom: 4rem;
+}
 
 .header .banner {
 	width: 100%;
@@ -370,14 +410,23 @@ li {
 
 /* First section */
 
+.firstsection {
+	padding-bottom: 4rem;
+	padding-top: 4rem;
+}
+
 .firstsection .heading {
 	text-align: center;
 	font-weight: 800;
 	width: 20rem;
-	padding-bottom: 2rem;
-	padding-top: 2rem;
 	display: block;
 	margin: auto;
+}
+
+.hiddenunderline {
+	color: darkred;
+	text-align: center;
+	padding-bottom: 4rem;
 }
 
 .allrows {
@@ -412,13 +461,22 @@ li {
 
 /* Third section */
 
+.thirdsection {
+	padding-bottom: 7rem;
+	padding-top: 4rem;
+}
+
+.thirdsection .hiddenunderline {
+	color: darkred;
+	text-align: center;
+	padding-bottom: 3rem;
+}
+
 .thirdsection .heading {
 	text-align: center;
 	display: block;
 	margin: auto;
 	width: 22rem;
-	padding-bottom: 2rem;
-	padding-top: 2rem;
 }
 
 .thirdsection .allevents {
@@ -437,6 +495,26 @@ li {
 	width: calc((100% / 3) - 3%);
 	margin: 1%;
 	cursor: pointer;
+	/*  */
+	line-height: 22.8571px;
+	padding-bottom: 30px;
+}
+
+.boxtag {
+	background-color: #979797;
+	color: white;
+	font-size: 1.6rem;
+	margin: 0rem;
+	padding: 0.5rem;
+	width: 8rem;
+	text-align: center;
+	position: relative;
+	margin-bottom: -3.2rem;
+}
+
+.tagnews {
+	margin-bottom: 0rem;
+	margin-left: -1rem;
 }
 
 .thirdsection .eventbox img {
@@ -447,6 +525,7 @@ li {
 	margin-left: 2rem;
 	padding: 1rem;
 	font-size: 1.7rem;
+	font-weight: 800;
 }
 
 .eventbox h3 {
@@ -458,7 +537,28 @@ li {
 	justify-content: space-evenly;
 	font-size: 1.3rem;
 	padding-top: 1rem;
-	padding-bottom: 1rem;
+}
+
+.eventbox .location {
+	display: flex;
+}
+
+.eventbox .date {
+	display: flex;
+}
+
+.eventbox .location img,
+.eventbox .date img {
+	width: 2rem;
+	margin-right: 0.5rem;
+}
+
+.manyposts {
+	height: 37rem;
+	width: 19.1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	overflow: auto;
 }
 
 .newspost h2 {
@@ -473,7 +573,6 @@ li {
 .thirdsection_buttons {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 2rem;
 }
 
 /* Fourth section */
@@ -493,6 +592,10 @@ li {
 	border-bottom: 1px solid darkgrey;
 	padding-bottom: 2rem;
 	padding-top: 2rem;
+}
+
+.topdiv .searchicon {
+	width: 3rem;
 }
 
 .middlediv {
@@ -520,6 +623,7 @@ li {
 .middlediv li {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+	line-height: 20px;
 }
 
 .middlediv ul {
@@ -540,19 +644,23 @@ li {
 	display: flex;
 }
 
+.lastdiv .words p {
+	margin-right: 3rem;
+}
+
 .social_logo {
 	width: 3rem;
-	margin-left: 1rem;
+	margin-left: 2rem;
 }
 
 /* footer */
 
 .footer {
-	padding: 1rem;
+	padding: 2rem;
 	display: flex;
 	justify-content: center;
 	background-color: #e6e6e6;
-	color: #888888;
+	color: #606060;
 }
 
 .footer div {
